@@ -1,0 +1,19 @@
+# exclude SafeMath when calculating test coverage
+# https://eth-brownie.readthedocs.io/en/v1.10.3/config.html#exclude_paths
+reports:
+  exclude_contracts:
+    - SafeMath
+
+
+addresses:
+  matic:
+    router: "0xa5E0829CaCEd8fFDD4De3c43696c57F7D7A678ff"
+    paircontract: "0xadbF1854e5883eB8aa7BAf50705338739e558E5b"
+    factory: "0x5757371414417b8C6CAad45bAeF941aBc7d3Ab32"
+
+deployed:
+  matic:
+    token1: "0x3f073B65242a4D162cB4ba0Fed381eD328025AD4"
+    token2: "0x221Dd6Ae0002Beb81983A2285ebfe633bc55Aa75"
+    lp: "0x6Af5f0D2C93e070B875CA1f7cA6ddF860cA1330b"
+    successfulliquidadd: "https://explorer-mainnet.maticvigil.com/tx/0x35de8b8b4ecd67802f048a0cdee9f372074c110d689403dca8c63d28d419c7fb/token-transfers"
